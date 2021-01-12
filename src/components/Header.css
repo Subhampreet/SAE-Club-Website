@@ -1,0 +1,29 @@
+.Header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    top: 0;
+    height: 80px;
+    
+    position: fixed;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.logo-img{
+    width: 70px;
+    margin-right: 150px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.logo-name{
+    margin-left: 150px;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+}
+

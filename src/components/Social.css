@@ -1,0 +1,26 @@
+.Social{
+    width: 17%;
+    padding-top: 15px;
+       
+    position: fixed;
+    z-index: 100;
+    bottom: 2%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(240, 229, 229);
+}
+
+.Social hr{
+    height: 1px;
+    width: 90px;
+    background: rgb(238, 229, 229);
+    border: none;
+}
+
+.Social .social-icon{
+    font-weight: 600 !important;
+    font-size: 20px;
+}
+
