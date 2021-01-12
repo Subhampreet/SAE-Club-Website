@@ -3,14 +3,30 @@ import Hero from "./pages/Hero";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Social from "./components/Social";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./pages/About";
+
 
 function App() {
   return (
     <div className="App">
+      <Router>
         <Header />
         <Nav />
         <Social />
-        <Hero />
+        <Switch>
+          <Route path="/about/">
+            <About />
+          </Route>
+
+          <Route path="/">
+            <Hero />
+          </Route>
+        </Switch>
+
+
+      </Router>
+        
     </div>
   );
 }

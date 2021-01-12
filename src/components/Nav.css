@@ -38,9 +38,13 @@
 
 }
 
-.Nav-list li a:active{
-    background-color: rgba(0,0,0,0.4);
+
+.nav-element{
+    text-decoration: none;
+    color: white;
 }
+
+
 
 .nav-hr{
     width: 2px;

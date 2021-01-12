@@ -45,11 +45,12 @@
 
 
 .Hero .hero-right h2{
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.3rem;
     position: absolute;
     bottom: 27px;
-    text-shadow: 0 0 3vw #717274;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .Hero .hero-right h2 span{
