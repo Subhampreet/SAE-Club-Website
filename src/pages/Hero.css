@@ -49,8 +49,18 @@
     letter-spacing: 0.3rem;
     position: absolute;
     bottom: 27px;
+    text-shadow: 0 0 3vw #717274;
 }
 
 .Hero .hero-right h2 span{
-    font-size: 50px;
+    font-size: 47px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(74, 19, 224);
+    text-shadow: 0 0 4vw #6c42e2;
+    font-weight: 700;
+    
 }
+
+
+  
+  
