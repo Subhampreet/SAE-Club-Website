@@ -1,11 +1,11 @@
 import './App.css';
-import Hero from "./pages/Hero";
+import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Social from "./components/Social";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./pages/About";
-import Team from "./pages/Team";
+import About from "./components/About";
+import Team from "./components/Team";
 
 
 function App() {
