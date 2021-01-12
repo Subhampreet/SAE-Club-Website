@@ -1,0 +1,67 @@
+
+
+.Team{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-image: linear-gradient(to top right, #030405 57%, #0e80dd 95%);    
+}
+
+.Team img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.15;
+}
+
+.Team p{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    max-width: 700px;
+    margin-left: 9.5%;
+    bottom: 0px;
+    margin-bottom: 50px;
+    letter-spacing: 0.07rem;
+    font-weight: 300;
+}
+
+.Team .hero-right{
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+    width: 280px;
+    height: 280px;
+    /* border: 3px solid white; */
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.Team .hero-right{
+    color: white;
+    font-weight: 200 !important;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+
+.Team .hero-right h2{
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    bottom: 27px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.Team .hero-right h2 span{
+    font-size: 47px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(74, 19, 224);
+    text-shadow: 0 0 4vw #6c42e2;
+    font-weight: 700;
+    
+}
+
+

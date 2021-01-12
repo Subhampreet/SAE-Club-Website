@@ -21,9 +21,28 @@
 
 .logo-name{
     margin-left: 150px;
-    color: white;
+    color: rgb(236, 233, 243);
+    text-shadow: 0 0 2vw #17171a;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 0.2rem;
     font-size: 27px;
+    
+
+    /* text-transform: uppercase;
+	background: linear-gradient(to right, #fdfdfd 0%, #f3ebed 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
 }
+
+.Header hr {
+    margin-left: 150px;
+    background: rgb(236, 233, 243);
+    height: 0.5px;
+    width: 60px;
+}
+
+
+
+
+
 

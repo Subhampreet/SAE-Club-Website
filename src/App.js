@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Social from "./components/Social";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/About";
+import Team from "./pages/Team";
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/about/">
             <About />
+          </Route>
+          <Route path="/team/">
+            <Team />
           </Route>
 
           <Route path="/">

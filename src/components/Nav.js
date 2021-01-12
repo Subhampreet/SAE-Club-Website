@@ -14,7 +14,9 @@ function Nav() {
                     <li><a>ABOUT</a></li>
                 </Link>                
                 <li><a>ACHIEVEMENTS</a></li>
-                <li><a>TEAM</a></li>
+                <Link to="/team/" className="nav-element">
+                    <li><a>TEAM</a></li>
+                </Link>
                 <li><a>CONTACT</a></li>
                 <div className="nav-hr"></div>
             </ul>
