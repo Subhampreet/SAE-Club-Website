@@ -1,10 +1,8 @@
-
-
 .Team{
     width: 100%;
     height: 100vh;
     top: 0;
-    background-image: linear-gradient(to top right, #030405 57%, #0e80dd 95%);    
+    background-image: linear-gradient(to top right, #030405 57%, #081016 95%);    
 }
 
 .Team img{
@@ -26,6 +24,10 @@
     margin-bottom: 50px;
     letter-spacing: 0.07rem;
     font-weight: 300;
+}
+
+.Team p span{
+    color: rgb(74, 19, 224);
 }
 
 .Team .hero-right{
@@ -59,7 +61,7 @@
     font-size: 47px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(74, 19, 224);
-    text-shadow: 0 0 4vw #6c42e2;
+    text-shadow: 0 4vw 10vw #fbfafc;
     font-weight: 700;
     
 }
