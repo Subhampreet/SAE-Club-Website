@@ -9,7 +9,7 @@ function Header() {
             <Link to="/" className="link">
                 <div className="logo">
                     <h2 className="logo-name">SAE CET-B</h2>
-                    {/* <hr /> */}
+                    <hr />
                 </div>
             </Link>
             
