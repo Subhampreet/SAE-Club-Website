@@ -66,4 +66,45 @@
     
 }
 
+.team-right {
+    position: absolute;
+    margin-top: 15%;
+    right: 0.5%;
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    color: white;
+}
+
+.team-right:hover {
+    margin-top: 16%;
+    color: rgb(95, 16, 241);
+    text-shadow: 0 0 4vw #6c42e2;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+
+.team-right h3{
+    position: absolute;
+    width: 400px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 13.5px;
+    letter-spacing: 0.15rem;
+    transform-origin: 0 0;
+    transform: rotate(-270deg);
+}
+
+.team-right .team-icon {
+    position: relative;
+    top: 180px;
+    /* margin-top: 100px; */
+    transform-origin: 0 0;
+    transform: rotate(-270deg)
+    
+}
+
 

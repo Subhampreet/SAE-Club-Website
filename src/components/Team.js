@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Team.css";
 import team from './sae_team.jpeg';
+import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
+import { Link } from "react-router-dom";
 
 
 function Team() {
@@ -13,8 +15,14 @@ function Team() {
                     <h2>THE <br /><span>BLUE JAY</span> <br/> RACING TEAM</h2>
                 </div>
 
-            </div>
-            
+            </div>   
+
+            <Link to="/coreteam/">
+                <div className="team-right">
+                    <h3>Meet the Core Team</h3>
+                    <DoubleArrowIcon className="team-icon" />
+                </div>
+            </Link> 
 
             
 

@@ -6,6 +6,7 @@ import Social from "./components/Social";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Team from "./components/Team";
+import CoreTeam from "./components/CoreTeam";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/team/">
             <Team />
+          </Route>
+          <Route path="/coreteam/">
+            <CoreTeam />
           </Route>
 
           <Route path="/">
