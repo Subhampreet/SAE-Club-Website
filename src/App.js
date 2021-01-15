@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Team from "./components/Team";
 import CoreTeam from "./components/CoreTeam";
+import MoreAbout from "./components/More-About.js";
+import Contact from './components/Contact';
 
 
 function App() {
@@ -25,6 +27,12 @@ function App() {
           </Route>
           <Route path="/coreteam/">
             <CoreTeam />
+          </Route>
+          <Route path="/more-about-us/">
+            <MoreAbout />
+          </Route>
+          <Route path="/contact/">
+            <Contact />
           </Route>
 
           <Route path="/">
