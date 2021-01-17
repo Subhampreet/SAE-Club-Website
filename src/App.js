@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Team from "./components/Team";
 import CoreTeam from "./components/CoreTeam";
+import Founder from "./components/Founder";
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/coreteam/">
             <CoreTeam />
+          </Route>
+          <Route path="/founder/">
+            <Founder />
           </Route>
 
           <Route path="/">

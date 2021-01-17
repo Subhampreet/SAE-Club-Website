@@ -59,7 +59,7 @@ function CoreTeam() {
                     <h4>Innovation Cell</h4>
                 </div>
                 <div className="team-member">
-                    <h3>Pratik Panda</h3>
+                    <h3>Pratik Mohanty</h3>
                     <h4>Procurement Head</h4>
                 </div>
                 <div className="team-member">
