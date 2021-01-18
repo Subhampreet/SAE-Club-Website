@@ -1,0 +1,32 @@
+.Ach{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-image: linear-gradient(to top right, #0a0c0c 57%, #181d20 95%);    
+    
+}
+
+.Ach img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.15;
+}
+
+.Ach p{
+    position: absolute;
+    z-index: 100;
+    color: white;
+    max-width: 800px;
+    margin-left: 9.5%;
+    bottom: 0px;
+    margin-bottom: 38px;
+    letter-spacing: 0.07rem;
+    font-weight: 300;
+}
+
+.Ach p span{
+    color: rgb(74, 19, 224);
+}

@@ -23,7 +23,7 @@ function Nav() {
           data-aos={"fade-right"}>
                 <NavLink to="/" label="HOME" activeOnlyWhenExact={true} />
                 <NavLink to="/about/" label="ABOUT" activeOnlyWhenExact={true} />
-                <li><a>ACHIEVEMENTS</a></li>
+                <NavLink to="/achievement/" label="ACHIEVEMENTS" activeOnlyWhenExact={true} />
                 <NavLink activeOnlyWhenExact={true} to="/team/" label="TEAM"/>
                 <li><a>CONTACT</a></li>
                 <div className="nav-hr"></div>

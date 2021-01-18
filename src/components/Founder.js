@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
 import f1 from "./f1.png";
 import f2 from "./f2.png";
+import f3 from "./founder.jpeg";
 
 function Founder() {
     return (
         <div className="Founder">
+
+
 
             <h1>KNOW OUR <span>FOUNDERS</span></h1>
             <h5>It is not the beauty of a building you should look at; its the construction of the foundation that will stand the test of time.</h5>

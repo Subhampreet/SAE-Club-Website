@@ -2,7 +2,12 @@
     width: 100%;
     height: 100vh;
     background: #111;
+    
 }
+
+
+
+
 
 
 .Founder .team-r {
@@ -126,6 +131,7 @@
 .Founder .founder-wrapper img{
     width: 100%;
     filter: drop-shadow(5px 5px 5px #242323) grayscale(100%);
+    z-index: 3;
 }
 
 .Founder .founder-wrapper img:hover{

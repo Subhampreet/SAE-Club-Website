@@ -8,6 +8,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import CoreTeam from "./components/CoreTeam";
 import Founder from "./components/Founder";
+import Ach from "./components/Ach";
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/founder/">
             <Founder />
+          </Route>
+          <Route path="/achievement/">
+            <Ach />
           </Route>
 
           <Route path="/">
