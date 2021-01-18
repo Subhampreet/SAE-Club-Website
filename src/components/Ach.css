@@ -6,6 +6,8 @@
     
 }
 
+
+
 .Ach img{
     position: absolute;
     top: 0;
@@ -29,4 +31,14 @@
 
 .Ach p span{
     color: rgb(74, 19, 224);
+}
+
+.Ach .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* width: 80%; */
+    position: relative;
+    top: 100px;
+    margin-left: 400px;
 }

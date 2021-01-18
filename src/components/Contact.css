@@ -1,0 +1,93 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+}
+
+.Contact p{
+    position: absolute;
+    z-index: 100;
+    color: #fffaff;
+    max-width: 700px;
+    margin-left: 9.5%;
+    bottom: 0px;
+    margin-bottom: 40px;
+    letter-spacing: 0.07rem;
+    font-weight: 300;
+}
+
+.Contact p span{
+    color: rgb(74, 19, 224);
+}
+
+
+
+.Contact .contact-main {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    top: 180px;
+}
+
+.Contact .contact-main h5{
+    margin: auto;
+    text-align: center;
+    color: rgb(68, 12, 221);
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Contact .contact-main h1{
+    text-align: center;
+    color: #fffaff;
+    letter-spacing: 0.1rem;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.Contact .contact-main .contact-button{
+    margin: auto;
+    width: 139px;
+}
+
+.Contact .contact-main .contact-button button{
+    background: transparent;
+    border: 1px solid rgb(68, 12, 221);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(68, 12, 221);
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.Contact .contact-main .contact-button button:hover{
+    background: rgba(68,12,221,0.2);
+    cursor: pointer;
+}
+
+.Contact .contact-main p{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.Contact .contact-main .contact-social{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-top: 100px;
+}
+
+.social-s{
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.social-s:hover {
+    border: 3px solid rgb(96, 96, 97);
+}
+
+

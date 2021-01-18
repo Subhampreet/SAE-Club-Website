@@ -1,7 +1,6 @@
 .Nav{
     width: 10%;
-    padding-top: 15px;
-       
+    padding-top: 15px;       
     position: fixed;
     z-index: 100;
     top: 27%;
@@ -18,6 +17,7 @@
     flex-direction: column;
     height: 320px;
     justify-content: space-between;
+    font-weight: 400;
 }
 
 .inactive{
@@ -31,6 +31,7 @@
     /* padding-bottom: 5px; */
     transition: all 1s;
     text-decoration: none;
+    font-weight: 400;
 }
 
 

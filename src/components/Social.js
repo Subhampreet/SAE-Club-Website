@@ -9,7 +9,7 @@ function Social() {
     return (
         <div className="Social">
             <hr />
-            <a><FacebookIcon className="social-icon" /></a>
+            <a ><FacebookIcon className="social-icon" /></a>
             <a><InstagramIcon className="social-icon" /></a>
             <a><LinkedInIcon className="social-icon" /></a>
             <a><MailOutlineIcon className="social-icon" /></a>

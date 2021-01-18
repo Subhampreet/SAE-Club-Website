@@ -13,12 +13,13 @@ function Header() {
         AOS.init();
         AOS.refresh();
     }, []);
+    
 
     return (
         <div className="Header">
             <Link to="/" className="link" spy={true}
             smooth={true}
-            duration={650}
+            duration={600}
             data-aos-delay="300"
             data-aos={"fade-down"}>
                 <div className="logo">

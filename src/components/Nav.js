@@ -16,16 +16,12 @@ function Nav() {
     
     return (
         <div className="Nav">
-            <ul className="Nav-list"  spy={true}
-          smooth={true}
-          duration={650}
-          data-aos-delay="300"
-          data-aos={"fade-right"}>
+            <ul className="Nav-list"  >
                 <NavLink to="/" label="HOME" activeOnlyWhenExact={true} />
                 <NavLink to="/about/" label="ABOUT" activeOnlyWhenExact={true} />
                 <NavLink to="/achievement/" label="ACHIEVEMENTS" activeOnlyWhenExact={true} />
                 <NavLink activeOnlyWhenExact={true} to="/team/" label="TEAM"/>
-                <li><a>CONTACT</a></li>
+                <NavLink activeOnlyWhenExact={true} to="/contact/" label="CONTACT"/>
                 <div className="nav-hr"></div>
             </ul>
         </div>

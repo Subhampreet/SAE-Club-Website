@@ -9,9 +9,18 @@ import Team from "./components/Team";
 import CoreTeam from "./components/CoreTeam";
 import Founder from "./components/Founder";
 import Ach from "./components/Ach";
+import Contact from "./components/Contact";
+import React, {useEffect} from 'react';
 
+import AOS from "aos";
+  import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="App">
       <Router>
@@ -33,6 +42,9 @@ function App() {
           </Route>
           <Route path="/achievement/">
             <Ach />
+          </Route>
+          <Route path="/contact/">
+            <Contact />
           </Route>
 
           <Route path="/">
