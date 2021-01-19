@@ -26,6 +26,10 @@
     font-weight: 300;
 }
 
+.Hero p span{
+    color: rgb(252, 167, 10);
+}
+
 .Hero .hero-right{
     position: absolute;
     bottom: 15%;

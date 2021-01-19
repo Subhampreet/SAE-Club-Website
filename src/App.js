@@ -11,6 +11,7 @@ import Founder from "./components/Founder";
 import Ach from "./components/Ach";
 import Contact from "./components/Contact";
 import React, {useEffect} from 'react';
+import DeviceOrientation, { Orientation } from 'react-screen-orientation';
 
 import AOS from "aos";
   import "aos/dist/aos.css";
@@ -23,37 +24,42 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Nav />
-        <Social />
-        <Switch>
-          <Route path="/about/">
-            <About />
-          </Route>
-          <Route path="/team/">
-            <Team />
-          </Route>
-          <Route path="/coreteam/">
-            <CoreTeam />
-          </Route>
-          <Route path="/founder/">
-            <Founder />
-          </Route>
-          <Route path="/achievement/">
-            <Ach />
-          </Route>
-          <Route path="/contact/">
-            <Contact />
-          </Route>
+      <DeviceOrientation lockOrientation={'landscape'}>
+        <Orientation orientation='landscape' alwaysRender={false}>
 
-          <Route path="/">
-            <Hero />
-          </Route>
-        </Switch>
+          <Router>
+            <Header />
+            <Nav />
+            <Social />
+            <Switch>
+              <Route path="/about/">
+                <About />
+              </Route>
+              <Route path="/team/">
+                <Team />
+              </Route>
+              <Route path="/coreteam/">
+                <CoreTeam />
+              </Route>
+              <Route path="/founder/">
+                <Founder />
+              </Route>
+              <Route path="/achievement/">
+                <Ach />
+              </Route>
+              <Route path="/contact/">
+                <Contact />
+              </Route>
+
+              <Route path="/">
+                <Hero />
+              </Route>
+            </Switch>
 
 
-      </Router>
+          </Router>
+        </Orientation>
+      </DeviceOrientation>
         
     </div>
   );
