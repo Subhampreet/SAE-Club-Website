@@ -21,7 +21,7 @@
     max-width: 700px;
     margin-left: 9.5%;
     bottom: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 3%;
     letter-spacing: 0.07rem;
     font-weight: 300;
 }
@@ -34,8 +34,8 @@
     position: absolute;
     bottom: 15%;
     right: 12%;
-    width: 280px;
-    height: 280px;
+    width: 19%;
+    height: 37%;
     /* border: 3px solid white; */
     background: rgba(0, 0, 0, 0.6);
 }
@@ -43,8 +43,8 @@
 .Hero .hero-right{
     color: white;
     font-weight: 200 !important;
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 1.6rem;
+    padding-left: 1%;
 }
 
 
@@ -52,13 +52,13 @@
     font-weight: 700;
     letter-spacing: 0.3rem;
     position: absolute;
-    bottom: 27px;
+    bottom: 10%;
     font-family: 'Open Sans', sans-serif;
 
 }
 
 .Hero .hero-right h2 span{
-    font-size: 47px;
+    font-size: 2.8rem;
     font-family: 'Open Sans', sans-serif;
     color: rgb(74, 19, 224);
     text-shadow: 0 0 4vw #6c42e2;
