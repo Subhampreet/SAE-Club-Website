@@ -1,6 +1,6 @@
 .Social{
     width: 17%;
-    padding-top: 15px;
+    padding-top: 5%;
        
     position: fixed;
     z-index: 100;
@@ -13,14 +13,14 @@
 }
 
 .Social hr{
-    height: 1px;
-    width: 90px;
+    height: 1.7px;
+    width: 35%;
     background: rgb(238, 229, 229);
     border: none;
 }
 
 .Social .social-icon{
     font-weight: 600 !important;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 

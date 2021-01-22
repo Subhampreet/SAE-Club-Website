@@ -8,10 +8,10 @@
     position: absolute;
     z-index: 100;
     color: #fffaff;
-    max-width: 700px;
+    max-width: 85%;
     margin-left: 9.5%;
-    bottom: 0px;
-    margin-bottom: 40px;
+    bottom: 0%;
+    margin-bottom: 3%;
     letter-spacing: 0.07rem;
     font-weight: 300;
 }
@@ -24,7 +24,7 @@
 
 .Contact .contact-main {
     position: relative;
-    max-width: 800px;
+    max-width: 50%;
     margin: auto;
     top: 180px;
 }
@@ -43,21 +43,21 @@
     color: #fffaff;
     letter-spacing: 0.1rem;
     font-size: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 
 .Contact .contact-main .contact-button{
     margin: auto;
-    width: 139px;
+    width: 20%;
 }
 
 .Contact .contact-main .contact-button button{
     background: transparent;
-    border: 1px solid rgb(68, 12, 221);
-    padding: 10px 20px;
+    border: 0.05rem solid rgb(68, 12, 221);
+    padding: 0.6rem 0.6rem;
     font-size: 20px;
     color: rgb(68, 12, 221);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     transition: all 1s;
 }
 
@@ -69,7 +69,7 @@
 .Contact .contact-main p{
     position: relative;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
     letter-spacing: 0.1rem;
 }
 
@@ -78,7 +78,7 @@
     display: flex;
     justify-content: space-around;
     width: 45%;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .social-s{

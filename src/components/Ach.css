@@ -21,10 +21,10 @@
     position: absolute;
     z-index: 100;
     color: white;
-    max-width: 800px;
+    max-width: 120%;
     margin-left: 9.5%;
     bottom: 0px;
-    margin-bottom: 38px;
+    margin-bottom: 12%;
     letter-spacing: 0.07rem;
     font-weight: 300;
 }
@@ -39,6 +39,6 @@
     align-items: stretch;
     /* width: 80%; */
     position: relative;
-    top: 100px;
-    margin-left: 400px;
+    top: 13%;
+    margin-left: 26%;
 }

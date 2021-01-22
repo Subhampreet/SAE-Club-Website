@@ -1,6 +1,6 @@
 .Nav{
     width: 10%;
-    padding-top: 15px;       
+    padding-top: 1rem;       
     position: fixed;
     z-index: 100;
     top: 27%;
@@ -11,7 +11,7 @@
 
 .Nav-list{
     color: #e7f0ec;
-    font-size: 22px;
+    font-size: 1.5rem;
     letter-spacing: 0.3rem;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,8 @@
 }
 
 .Nav-list li a{
-    padding-left: 5px;
-    padding-right: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
     /* padding-bottom: 5px; */
     transition: all 1s;
     text-decoration: none;
@@ -37,7 +37,7 @@
 
 .Nav-list li a:hover {
     cursor: pointer;
-    padding-left: 7px;
+    padding-left: 12%;
     background: rgba(0,0,0,0.65);
     color: rgb(74, 12, 243);
     text-shadow: 0 0 4vw #6c42e2;
@@ -48,7 +48,7 @@
     color: rgb(74, 12, 243);
     /* text-shadow: 0 0 4vw #6c42e2; */
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 20%;
 }
 
 
@@ -59,7 +59,7 @@
 
 
 .nav-hr{
-    width: 2px;
-    height: 90px;
+    width: 3%;
+    height: 28%;
     background-color: white;
 }
