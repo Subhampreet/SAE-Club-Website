@@ -1,6 +1,8 @@
 # 🏁 SAE Club Website 
 
-# Getting Started with Create React App
+![SAE](https://user-images.githubusercontent.com/61475220/107178715-c2732a80-69fa-11eb-82c1-2999b46b577e.PNG)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
